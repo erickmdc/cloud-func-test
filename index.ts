@@ -2,7 +2,7 @@ import express, { Request, Response } from "express";
 import path from "path";
 
 const app = express();
-const port = 3000;
+const port = 8080;
 
 app.use(express.static(path.join(__dirname, "public"))); // Serve static files
 
